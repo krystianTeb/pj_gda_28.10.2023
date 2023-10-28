@@ -2,19 +2,29 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        // 1 wersja
-        for(int i = 1; i <= 10; i++){
-            System.out.print(i % 2 == 0 ? i + "\n":"");
+
+        //wersja 1
+        int i = 1;
+        while(i <= 20){
+            System.out.print(i % 3 != 0 ? i + "\n": "");
+            i++;
         }
-        //2wersja
-        for(int i = 1; i <= 10; i++){
-            if(i % 2 == 0 ) System.out.println(i);
+
+        //wersja 2
+        int j = 1;
+        while(j <= 20){
+            if (j % 3 != 0) System.out.println( j );
+            j++;
         }
-        //3wersja
-        for(int i = 1; i <= 10; i++){
-            if(i % 2 == 0 ) {
-                System.out.println(i);
+
+        //wersja 3
+        int x = 1;
+        while(x <= 20){
+            if (x % 3 != 0) {
+                System.out.println( x );
             }
+            x++;
         }
+
     }
 }
