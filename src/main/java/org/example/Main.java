@@ -7,17 +7,11 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Wprowadź liczbę do weryfikacji: [potwierdź enterem]");
-        int liczba = scan.nextInt();
+        while(true) {
+            System.out.println("Wprowadź liczbę do weryfikacji: [potwierdź enterem]");
+            int liczba = scan.nextInt();
 
-        if(liczba == 1){
-            System.out.println("Liczba to 1!");
-        } else if (liczba == 2) {
-            System.out.println("Liczba to 2!");
-        } else if (liczba == 3) {
-            System.out.println("Liczba to 3!");
-        }else{
-            System.out.println("To jest inna liczba!");
+            System.out.println(liczba % 2 == 0 ? "Liczba jest parzysta!" : "Liczba nieparzysta!");
         }
 
 
