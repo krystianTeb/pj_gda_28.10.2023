@@ -6,9 +6,9 @@ public class Main {
         int i = 0;//wyrażenie inicjujące
         do{
             /*to co ma się wykonać w obiegu pętli*/
-            System.out.println("[i = " + i + "] obieg pętli");
+            System.out.println("[i = " + i++ + "] obieg pętli");
         }
-        while(i++ < 4);// wyrażenie modyfikujące i wyrażenie warunkowe
+        while(i < 4);// wyrażenie modyfikujące i wyrażenie warunkowe
 
     }
 }
