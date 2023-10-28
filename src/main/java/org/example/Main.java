@@ -5,7 +5,8 @@ public class Main {
 
         int i = 10;                 // deklaracja zmiennej iteracyjnej
         while(i > 5){               //warunek pętli
-           System.out.println(i--); //wypisanie i i pomniejszenie o 1
+            System.out.println(i);  //wypisanie
+            i--;                    // i i pomniejszenie o 1
         }
 
 
