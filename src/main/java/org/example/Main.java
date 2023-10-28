@@ -5,7 +5,7 @@ public class Main {
 
         for(int i = 0; i < 5;){
 
-            System.out.println("Wartość i: " + i++);
+            System.out.println("Wartość i: " + ++i);
 
         }
 
