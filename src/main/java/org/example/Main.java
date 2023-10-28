@@ -7,7 +7,9 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        while(true) {
+        int licznik = 0;
+        while(licznik < 2) {
+            licznik++; // inkrementacja (zwiękczenie licznik o + 1)
             System.out.println("Wprowadź liczbę do weryfikacji: [potwierdź enterem]");
             int liczba = scan.nextInt();
 
