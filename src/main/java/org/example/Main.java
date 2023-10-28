@@ -3,9 +3,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-
-        for(int i = 0; ; i++){
-                System.out.println("Wartość i: " + i);
+        int i = 10;                 // deklaracja zmiennej iteracyjnej
+        while(i > 5){               //warunek pętli
+           System.out.println(i--); //wypisanie i i pomniejszenie o 1
         }
 
 
