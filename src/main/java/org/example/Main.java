@@ -6,13 +6,20 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        //scan.useLocale(Locale.US);//umożliwia dodanie wartości . jako przecinek
 
-        System.out.println("Wprowadź saldo konta: [potwierdź enterem]");
-        double saldoKonta = scan.nextFloat();
-        double oplataZaKonto = saldoKonta * 0.1;
-        System.out.println("Saldo konta to: " + saldoKonta +
-                           "\nto opłata za konto: " + oplataZaKonto);
+        System.out.println("Wprowadź liczbę do weryfikacji: [potwierdź enterem]");
+        int liczba = scan.nextInt();
+
+        if(liczba == 1){
+            System.out.println("Liczba to 1!");
+        } else if (liczba == 2) {
+            System.out.println("Liczba to 2!");
+        } else if (liczba == 3) {
+            System.out.println("Liczba to 3!");
+        }else{
+            System.out.println("To jest inna liczba!");
+        }
+
 
     }
 }
