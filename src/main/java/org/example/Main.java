@@ -4,16 +4,20 @@ public class Main {
     public static void main(String[] args) {
 
         //wersja 1
-        for(int i = 1; i <= 20; i++){
+        int i = 1;
+        while(i <= 20){
             System.out.println(i % 2 == 0 ? i + " jest parzsta!": i + " jest NIEparzysta!");
+            i++;
         }
         //wersja 2
-        for(int i = 1; i <= 20; i++){
+        i = 1;
+        while(i <= 20){
             if(i % 2 == 0) {
                 System.out.println(i + " jest parzsta!");
             }else{
                 System.out.println(i + " jest NIEparzysta!");
             }
+            i++;
         }
 
     }
